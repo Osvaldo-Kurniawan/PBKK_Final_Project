@@ -373,7 +373,7 @@ class Admin extends CI_Controller
 			}
 			$noB = 67;
 			$excel->setActiveSheetIndex(0)
-				->setCellValue('A' . ($column + 1), 'Rata-Rata job');
+				->setCellValue('A' . ($column + 1), 'Rata-Rata');
 			foreach ($pekerjaanproyekS as $pekerjaanproyek) {
 				$proyek = $pekerjaanproyek['proyek_id'];
 				$queryJml = "SELECT AVG(nilai) as rata

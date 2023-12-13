@@ -158,7 +158,7 @@ CREATE TABLE `tb_pekerjaan` (
   `id_pekerjaan` bigint(20) NOT NULL,
   `manager_id` bigint(20) NOT NULL,
   `ta_id` bigint(20) NOT NULL,
-  `job` int(10) NOT NULL
+  `job` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -166,7 +166,7 @@ CREATE TABLE `tb_pekerjaan` (
 --
 
 INSERT INTO `tb_pekerjaan` (`id_pekerjaan`, `manager_id`, `ta_id`, `job`) VALUES
-(1, 2, 1, 1);
+(1, 2, 1, "Membuat sesuatu");
 
 -- --------------------------------------------------------
 
