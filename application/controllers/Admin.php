@@ -293,10 +293,10 @@ class Admin extends CI_Controller
 		// Ini Instance untuk export Excel
 		$excel = new Spreadsheet();
 
-		$excel->getProperties()->setCreator('Muhammad Alfansa Yazib')
-			->setLastModifiedBy('Muhammad Alfansa Yazib')
-			->setTitle('SEKOLAH DINIYYAH TARBIYYATUL FALAAH TUGU')
-			->setSubject("DAFTAR HASIL TES BELAJAR DINIYYAH TARBIYYATUL FALAAH TUGU")
+		$excel->getProperties()->setCreator('Kelompok11')
+			->setLastModifiedBy('Kelompok11')
+			->setTitle('Excel Penilaian')
+			->setSubject("DAFTAR HASIL Penilaian Karyawan")
 			->setCategory("Daftar Nilai");
 
 		$excel->setActiveSheetIndex(0)
